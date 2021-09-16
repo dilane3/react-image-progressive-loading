@@ -34,5 +34,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilane3/react-image-loading.git"
+  },
+  "homepage":"https://github.com/dilane3/react-image-loading#readme"
 }
