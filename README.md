@@ -8,7 +8,7 @@ When we create a website which will contains a lot of images (heavy images), the
 
 ```bash
 
-npm install react-image-loading
+npm install react-image-progressive-loading
 
 ```
 
@@ -16,7 +16,7 @@ or
 
 ```bash
 
-npm i react-image-loading
+npm i react-image-progressive-loading
 
 ```
 
@@ -41,15 +41,15 @@ export default ProfilImage
 
 #### Props
 1. **image**
-=
+
 image prop takes as value the image that you want to display
 
 2. **alt**
-=
+
 alt prop takes as value the description of the image, which will be display when the image is not available
 
 3. **className**
-=
+
 className prop is used for styling. If you want to add a custom style to your image, provide a className value.
 
 ```javascript
