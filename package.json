@@ -1,7 +1,8 @@
 {
   "name": "react-image-progressive-loading",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": false,
+  "main": "/lib/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -15,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "babel": "./node_modules/.bin/babel src --out-dir lib"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +41,10 @@
     "type": "git",
     "url": "git+https://github.com/dilane3/react-image-loading.git"
   },
-  "homepage":"https://github.com/dilane3/react-image-loading#readme"
+  "homepage": "https://github.com/dilane3/react-image-loading#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5"
+  }
 }

@@ -1,6 +1,6 @@
-# react-image-loading
+# react-image-progressive-loading
 
-React-image-loading is a tool that helps you include heavy images in your webpage and display them when visible in the window. the display is progressive.
+React-image-progressive-loading is a tool that helps you include heavy images in your webpage and display them when visible in the window. the display is progressive.
 
 When we create a website which will contains a lot of images (heavy images), the loading of the page will takes more time because, the browser might load all images which are present in the web page. That's why, this library is made up.
 
@@ -25,7 +25,7 @@ npm i react-image-progressive-loading
 ```javascript
 
 import React from 'react'
-import Image from 'react-image-loading'
+import Image from 'react-image-progressive-loading'
 
 const image = require("path/to/image.png").default
 

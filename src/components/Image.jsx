@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react'
 import useIntersectionObserver from '../hook/useIntersectionObserver'
-import styles from '../index.module.css'
+import styles from '../../src/index.module.css'
 
 const ImageLoading = ({image, alt}) => {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -28,7 +28,7 @@ const ImageLoading = ({image, alt}) => {
   )
 }
 
-const Image = ({image, alt, className=null}) => {
+const Image = ({image, alt, className}) => {
   const [visible, setVisible] = useState(false)
   const target = useRef()
 

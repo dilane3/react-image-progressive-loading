@@ -1,1 +1,3 @@
-export {default as Image} from "./components/Image"
+import Image from './components/Image'
+
+export {Image}
