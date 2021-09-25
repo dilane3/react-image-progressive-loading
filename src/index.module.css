@@ -1,5 +1,19 @@
 .image {
-  width: 100%;
+  width: 300px;
   height: 300px;
-  margin-bottom: 30px;
+  margin: 10px;
+}
+
+.imageLoading {
+  display: "block";
+  background-color: "#eee";
+  opacity: .8;
+}
+
+.imageLoadingBlur {
+  filter: blur(2px);
+}
+
+.imageNotLoading {
+  display: none;
 }

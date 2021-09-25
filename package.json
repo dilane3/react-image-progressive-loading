@@ -1,6 +1,6 @@
 {
   "name": "react-image-progressive-loading",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "private": false,
   "main": "/lib/index.js",
   "dependencies": {
@@ -19,6 +19,13 @@
     "eject": "react-scripts eject",
     "babel": "./node_modules/.bin/babel src --out-dir lib"
   },
+  "keywords": [
+    "image",
+    "images",
+    "react",
+    "loading",
+    "progressive"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",

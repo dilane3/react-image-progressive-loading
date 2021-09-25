@@ -25,7 +25,7 @@ npm i react-image-progressive-loading
 ```javascript
 
 import React from 'react'
-import Image from 'react-image-progressive-loading'
+import {Image} from 'react-image-progressive-loading'
 
 const image = require("path/to/image.png").default
 
@@ -40,17 +40,13 @@ export default ProfilImage
 ```
 
 #### Props
-1. **image**
-
-image prop takes as value the image that you want to display
-
-2. **alt**
-
-alt prop takes as value the description of the image, which will be display when the image is not available
-
-3. **className**
-
-className prop is used for styling. If you want to add a custom style to your image, provide a className value.
+|  prop  | Default value | required | Description |
+|---     |---            |---       |---          |
+|image   | not defined   | true     |This prop takes as value the source of the image|
+|alt     | loading       | false    |It defines the description of the image when it's not loaded|
+|className| image         | false    |It's used for styling the image on the web page|
+|blur    | false         | false    |This prop is used for difining the type of loading that we want. If it's false, the background of te image will be gray while loading. If it's equal to true the background will be gray and there will be a blur             |
+|        |               |          |             |
 
 ```javascript
 // code here
