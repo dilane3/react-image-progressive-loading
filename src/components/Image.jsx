@@ -10,17 +10,8 @@ const ImageLoading = ({image, alt, blur}) => {
       <img
         src={null}
         alt={alt}
-        style={{
-          display: isLoaded ? (
-            styles.imageNotLoading
-          ):(
-            blur ? (
-              styles.imageLoadingBlur
-            ):(
-              styles.imageLoading
-            )
-          )
-        }}
+        style={{display: isLoaded ? "none":"block"}}
+        className={`${blur && styles.blur} ${styles.isLoading}`}
         width={"100%"}
         height={"100%"}
       />
@@ -42,8 +33,8 @@ const Image = ({image, alt, className, blur}) => {
   const [visible, setVisible] = useState(false)
   const target = useRef()
 
-  blur = blur === undefined && false
   alt = alt || "loading"
+  blur = blur ? true:false;
 
   const handleIntersector = (entries, observer) => {
     entries.forEach(entry => {

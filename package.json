@@ -1,8 +1,8 @@
 {
   "name": "react-image-progressive-loading",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "private": false,
-  "licence": "ISC",
+  "license": "ISC",
   "main": "/lib/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

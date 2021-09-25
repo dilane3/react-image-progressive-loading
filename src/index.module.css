@@ -4,16 +4,11 @@
   margin: 10px;
 }
 
-.imageLoading {
-  display: "block";
-  background-color: "#eee";
+.isLoading {
+  background: #eee;
   opacity: .8;
 }
 
-.imageLoadingBlur {
-  filter: blur(2px);
-}
-
-.imageNotLoading {
-  display: none;
+.blur {
+  filter: blur(5px);
 }
