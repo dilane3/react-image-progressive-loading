@@ -43,10 +43,34 @@ export default ProfilImage
 |  prop  | Default value | required | Description |
 |---     |---            |---       |---          |
 |image   | not defined   | true     |This prop takes as value the source of the image|
-|alt     | loading       | false    |It defines the description of the image when it's not loaded|
+|alt     | "loading"       | false    |It defines the description of the image when it's not loaded|
 |className| image         | false    |It's used for styling the image on the web page|
 |blur    | false         | false    |This prop is used for difining the type of loading that we want. If it's false, the background of te image will be gray while loading. If it's equal to true the background will be gray and there will be a blur             |
-|        |               |          |             |
+
+The default value of the `className` prop is defined like follow
+```css
+
+.image {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+```
+
+you can provide another style. For exameple
+
+```css
+
+.image-style {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+
+```
+
+and call it like that:
 
 ```javascript
 // code here
