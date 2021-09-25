@@ -2,6 +2,7 @@
   "name": "react-image-progressive-loading",
   "version": "0.2.3",
   "private": false,
+  "licence": "ISC",
   "main": "/lib/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -46,9 +47,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dilane3/react-image-loading.git"
+    "url": "git+https://github.com/dilane3/react-image-progressive-loading.git"
   },
-  "homepage": "https://github.com/dilane3/react-image-loading#readme",
+  "homepage": "https://github.com/dilane3/react-image-progressive-loading#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
